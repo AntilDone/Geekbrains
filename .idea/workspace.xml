@@ -22,16 +22,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db4898-5260-4343-9c10-3cbdca7d37c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1/pom.xml" afterDir="false" />
+    <list default="true" id="82db4898-5260-4343-9c10-3cbdca7d37c9" name="Default Changelist" comment="First Try">
+      <change afterPath="$PROJECT_DIR$/Lesson_1/src/main/java/lesson_1/FirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -46,11 +55,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1604847813055</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Try">
+      <created>1604848849044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604848849044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,11 +93,31 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Try" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Try" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="328" y="83" key="SettingsEditor" timestamp="1604848413026">
+    <state x="328" y="83" key="#Project_Structure" timestamp="1604848942424">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state x="328" y="83" key="SettingsEditor/0.23.1680.957@0.23.1680.957" timestamp="1604848413026" />
+    <state x="328" y="83" key="#Project_Structure/0.23.1680.957@0.23.1680.957" timestamp="1604848942424" />
+    <state x="304" y="88" width="1071" height="892" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604849572716">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="304" y="88" width="1071" height="892" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.957@0.23.1680.957" timestamp="1604849572716" />
+    <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604849438877">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="577" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.957@0.23.1680.957" timestamp="1604849438877" />
+    <state x="328" y="83" key="SettingsEditor" timestamp="1604849288504">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="328" y="83" key="SettingsEditor/0.23.1680.957@0.23.1680.957" timestamp="1604849288504" />
+    <state x="440" y="241" key="Vcs.Push.Dialog.v2" timestamp="1604848859543">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="440" y="241" key="Vcs.Push.Dialog.v2/0.23.1680.957@0.23.1680.957" timestamp="1604848859543" />
     <state x="439" y="164" key="new project wizard" timestamp="1604848443497">
       <screen x="0" y="23" width="1680" height="957" />
     </state>
