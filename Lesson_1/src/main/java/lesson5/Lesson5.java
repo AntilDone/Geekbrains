@@ -1,19 +1,30 @@
 package lesson5;
 
-class Employee {
-    String firstname, name, middlename, position, email;
+public class Lesson5 {
+    public static void main(String[] args) {
+        Person[] persArray = new Person[5];
+        persArray[0] = new Person("Ivanov", "Ivan", "Senior Engineer", "ivanivanov@gmail.com", 210000, 34);
+        persArray[1] = new Person("Sidorov", "Petr", "Engineer", "sidorovpetr@gmail.com", 69000, 44);
+        persArray[2] = new Person("Efremov", "Aleksey", "Manager", "efremovaleksey@gmail.com", 73000, 44);
+        persArray[3] = new Person("Pupkin", "Vasilii", "Top manager", "pupkinvasilii@gmail.com", 210000, 56);
+        persArray[4] = new Person("Semenov", "Semen", "Cleaner", "semenovssemen@gmail.com", 25000, 18);
+
+        for (Person e : persArray) if (e.getAge() > 40) e.getFullInfo();
+    }
+}
+
+class Person {
+    String firstname, name, position, email;
     int salary, age;
 
-    Employee(String firstname,
+    Person(String firstname,
              String name,
-             String middlename,
              String position,
              String email,
              int salary,
              int age) {
         this.firstname = firstname;
         this.name = name;
-        this.middlename = middlename;
         this.position = position;
         this.email = email;
         this.salary = salary;
@@ -22,7 +33,7 @@ class Employee {
 
     void getFullInfo() {
         System.out.println("firstname: " + firstname + " | name: " + name
-                + " | middlename: " + middlename + " | position: " + position
+                + " | position: " + position
                 + " | email: " + email + " | salary: " + salary + " | age: "
                 + age);
     }
@@ -32,20 +43,3 @@ class Employee {
     }
 }
 
-public class Lesson5 {
-    public static void main(String[] args) {
-        Employee[] employees = new Employee[5];
-        employees[0] = new Employee("Ivanov", "Ivan", "Ivanovich",
-                "Top manager", "ivanovii@mail.ru", 150000, 45);
-        employees[1] = new Employee("Aleksandrov", "Aleksandr", "Aleksandrovich", "manager",
-                "aleksandrovaa@mail.ru", 45000, 31);
-        employees[2] = new Employee("Sidorov", "Petr", "Petrovich",
-                "manager", "sidorovpp@mail.ru", 25000, 23);
-        employees[3] = new Employee("Pupkin", "Vasilii", "Ivanovich",
-                "manager", "pupkinvi@mail.ru", 21000, 41);
-        employees[4] = new Employee("Semenov", "Semen", "Semenovich",
-                "manager", "semenovss@mail.ru", 35000, 23);
-
-        for (Employee e : employees) if (e.getAge() > 40) e.getFullInfo();
-    }
-}
